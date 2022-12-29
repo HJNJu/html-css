@@ -1,0 +1,54 @@
+.container {
+    background: lightgrey;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+}
+
+.item1 {
+    background: #ef5e91;
+} 
+
+.item2 {
+    background: #ba68c8;
+}
+
+.item3 {
+    background: #7986cb;
+} 
+
+.item4 {
+    background: #64b5f6;
+}
+
+.item5 {
+    background: #4db6ac;
+} 
+
+.item6 {
+    background: #81c784;
+}
+
+.item7 {
+    background: #dce775;
+} 
+
+.item8 {
+    background: #dce775;
+}
+
+.item9 {
+    background: #fff176;
+} 
+
+.item10 {
+    background: #ffb74d;
+}
