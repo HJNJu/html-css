@@ -1,0 +1,106 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fnwzo5%2FbtqPfS6J8FD%2FZYtyKDQRjMmriPuVqmZ8h0%2Fimg.jpg) no-repeat center center / cover;
+}
+
+.calculator{ 
+  width: 250px; 
+  height: 360px; 
+  background-color: rgb(102, 101, 101, 0.75);
+  backdrop-filter: blur(4px);
+  border-radius: 13px; 
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #999999;
+}
+
+nav{
+  padding: 10px;
+}
+
+.btn{
+  width: 12px;
+  height: 12px; 
+  border-radius: 50%; 
+  display: inline-block; 
+  margin-right: 3px;
+}
+
+.red{
+  background-color: #F35F57;
+}
+
+.yellow{
+  background-color: #FABC2E;
+}
+
+.green{
+  background-color: #55C83F;
+}
+
+.result{
+  height: 54px;
+  text-align: right;
+  font-size: 40px;
+  padding-top: 15px;
+  vertical-align: bottom;
+  color: #fff;
+}
+
+main{
+  height: 100%;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+}
+
+.num {
+  width: 100%;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.num:active {
+    filter: brightness(120%);
+}
+
+.zero{
+  flex: 0 0 50%;
+}
+
+.decimal {
+  flex: 0 0 25%;
+}
+
+.equal {
+  flex: 0 0 25%;
+}
+
+.last-content{
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+}
+
+.orange{
+  background-color: #F79F0E;
+}
+
+.dark {
+  background-color: #838283;
+}
+
+button {
+  border: 0.5px solid rgb(102, 101, 101);;
+}
